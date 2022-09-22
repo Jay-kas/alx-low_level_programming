@@ -1,27 +1,95 @@
-#INTRODUCTION TO DIRECTORY
+->This is the Task 5 of the C proramming language
 
-This is a Low Level Programming Basics.
+->There is a protptype file included
 
-This is the root REPO for this section.
+->The putchar.c was not included
 
-All files created from the Terminal have been pushed here accordingly
+->The main.c is included and loaded
 
-This is in view the becoming A full stack programmer.
+->The Header files was created too.
 
-The files created are lessons and projects for C programming.
+->All files were created and pushed through the shell.
 
-There are other Repo's created for different levels of programming.
+->There are no copy and paste jobs as all jobs were hand typed from the local terminal.
 
-###LISTED HERE ARE THE DIRECTORIES CREATED FOR THIS PROJECT AND ALL PROJECT WERE UPDATED ACCURATELY###
+->This read me file contains the whole thing needed to know how and what each file does and how to go about them.
 
-Project 0: 0x00 Hello World
+HERE ARE THE LIST OF FILES IN THIS PROJECT:
 
-Project 1: 0x01 Variables If Else While
+Reset_to_98.c - Function takes a pointer to an int as parameter and updates the value it points to to 98.
 
-Project 2: 0x02-functions_nested_loops
+Swap.c - Function swaps the values of two integers.
 
-Project 3: 0x03-debugging
+Strlen.c - Function returns the length of a string.
 
-Project 4: 0x04-more_functions_nested_loops
+puts.c - Function prints a string, followed by a new line, to stdout.
 
-Project 5: 0x05-pointers_arrays_strings
+Print_rev.c - Function prints a string, in reverse, followed by a new line.
+
+Rev_string.c - Function reverses a string.
+
+Puts2.c - Function prints every other character of a string, starting with the first character, followed by a new line.
+
+Puts_half.c - Function prints half of a string, followed by a new line.
+
+Print_array.c - Function prints n elements of an array of integers, followed by a new line.
+
+Strcpy.c - Function copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest.
+
+Atoi.c - Function convert a string to an integer.
+
+Keygen.c - Program generates random valid passwords for the program 101-crackme.
+
+These are the files that were all created for this project.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
