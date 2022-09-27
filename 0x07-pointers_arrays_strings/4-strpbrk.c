@@ -1,33 +1,34 @@
+#include <stdio.h>
 #include "main.h"
 
- /**
-  * _strpbrk - search a string for any of a set of bytes
-  * @s: source string
-  * @accept: accepted characters
-  * Return: the string since the first found accepted character
-  */
-
+/**
+ * _strpbrk - function searches a string for any
+ * set of bytes
+ * @s: the string to search
+ * @accept: the string of characters to search for
+ *
+ * Return: a pointer to the byte in s that matches one of
+ * the bytes in accept, or NULL if not byte is found
+ */
 char *_strpbrk(char *s, char *accept)
 {
-	int a = 0, b;
+	int i = 0;
 
-	while (s[a])
+	while (*s)
 	{
-		b = 0;
-
-		while (accept[b])
+		for (i = 0; accept[i] != '\0'; i++)
 		{
-			if (s[a] == accept[b])
+
+			if (*s == accept[i])
 			{
-				s += a;
 				return (s);
+
 			}
 
-			b++;
 		}
+		s++;
 
-		a++;
 	}
+	return (NULL);
 
-	return ('\0');
 }
